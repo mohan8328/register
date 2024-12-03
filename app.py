@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app)  # This will allow all origins to access the Flask app
 
 # Set up PostgreSQL connection using SQLAlchemy
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Mohan8328@localhost/registration_db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://sample_9er3_user:p3G9Vnf662te02ZKSYNSzu4ZstzAls4K@dpg-ct7l2fij1k6c73cj4o3g-a.oregon-postgres.render.com/sample_9er3'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
